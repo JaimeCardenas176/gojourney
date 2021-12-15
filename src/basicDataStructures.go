@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	//array -> inmmutables en go
-	var array [4]int
+	var array [4]int = [4]int{0, 0, 0, 0}
 	array[0] = 1
 	array[1] = 2
 	fmt.Println(array)
